@@ -1,0 +1,2 @@
+The name of my file is q3main.py. You can run it if you have numpy, matplotlib, and math installed. You need to run the script through python 3 by running the statement:
+python3 q3main.py . Furthermore, you can easily read the answers as they are properly labeled when being printed out onto the console and all answers and graphs shown are generated in their own order. Also to run the code after the showing of a graph, you need to close the graph window to continue the rest of the code after the graph generation.

@@ -1,0 +1,26 @@
+PCA with cov method:
+1. find mean of each row of data
+2. subtract mean from each row of data
+3. find cov of mean centered data
+4. find eig_val, eig_Vec of cov
+
+Dimension reduction:
+1. select k<=d
+2. sort eig_val, eig_vec based on eig_vals
+3. select 1st k eig_vec columns
+4. reduced = data (dot) selected columns
+
+Reconstruction:
+1. reconstructed = reduced (dot) (selected columns).T
+
+PCA with SVD method:
+1. u,s,vT = svd(A)
+2. put diag(s) in matrix (Sigma) of size A
+
+Dimension Reduction:
+3. select k <= d
+5. seelct k rows from vT
+6. reduced = A (dot) (selected rows).T
+
+Reconstruction
+3. reconstruct = U (dot) Sigma (dot) vT
